@@ -1,0 +1,19 @@
+﻿La génération a démarré 01/07/2016 00:08:38.
+     1>Projet "C:\Users\Yessine\Desktop\Composant4\Composant4\Composant4.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Yessine\Desktop\Composant4\Interfaces /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _WINDOWS /D _USRDLL /D COMPOSANT4_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Composant4.cpp sha512.cpp
+         sha512.cpp
+         Composant4.cpp
+         Génération de code en cours...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug\Composant4.res" Composant4.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yessine\Desktop\Composant4\Debug\Composant4.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\Yessine\Desktop\Composant4\Debug\Composant4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yessine\Desktop\Composant4\Debug\Composant4.lib" /MACHINE:X86 /DLL Debug\Composant4.res
+         Debug\Composant4.obj
+         Debug\sha512.obj
+         Composant4.vcxproj -> C:\Users\Yessine\Desktop\Composant4\Debug\Composant4.dll
+     1>Génération du projet "C:\Users\Yessine\Desktop\Composant4\Composant4\Composant4.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.72

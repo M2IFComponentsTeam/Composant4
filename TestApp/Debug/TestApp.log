@@ -1,0 +1,36 @@
+﻿La génération a démarré 28/06/2016 11:43:42.
+     1>Projet "C:\Users\Yessine\Desktop\Composant4\TestApp\TestApp.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\TestApp.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\TestApp.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Composant4\Composant4.cpp ..\Composant4\sha512.cpp TestApp.cpp
+         TestApp.cpp
+     1>c:\users\yessine\desktop\composant4\testapp\testapp.cpp(4): warning C4627: '#include <iostream>' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\testapp\testapp.cpp(4): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\testapp\testapp.cpp(5): warning C4627: '#include "Composant4.h"' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\testapp\testapp.cpp(5): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\testapp\testapp.cpp(6): warning C4627: '#include "Bloc.h"' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\testapp\testapp.cpp(6): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\testapp\testapp.cpp(43): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "stdafx.h"' à votre source ?
+         sha512.cpp
+     1>c:\users\yessine\desktop\composant4\composant4\sha512.cpp(1): warning C4627: '#include <cstring>' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\composant4\sha512.cpp(1): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\composant4\sha512.cpp(2): warning C4627: '#include <fstream>' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\composant4\sha512.cpp(2): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\composant4\sha512.cpp(3): warning C4627: '#include "sha512.h"' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\composant4\sha512.cpp(3): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\composant4\sha512.cpp(156): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "stdafx.h"' à votre source ?
+         Composant4.cpp
+     1>c:\users\yessine\desktop\composant4\composant4\composant4.cpp(1): warning C4627: '#include "Composant4.h"' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\composant4\composant4.cpp(1): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\composant4\composant4.cpp(2): warning C4627: '#include "sha512.h"' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\composant4\composant4.cpp(2): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\composant4\composant4.cpp(3): warning C4627: '#include <iostream>' : ignoré lors de la recherche d'une utilisation d'un en-tête précompilé
+         c:\users\yessine\desktop\composant4\composant4\composant4.cpp(3): note: Ajoutez la directive à 'stdafx.h' ou régénérez l'en-tête précompilé
+     1>c:\users\yessine\desktop\composant4\composant4\composant4.cpp(103): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "stdafx.h"' à votre source ?
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\Yessine\Desktop\Composant4\TestApp\TestApp.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.37
